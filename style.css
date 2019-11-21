@@ -7,7 +7,6 @@ body {
   color: white;
   margin: auto;
   padding: 30px;
-  background-color: #34095C;
 }
 
 p {
@@ -28,7 +27,8 @@ img {
 
 .container {
   position: relative;
-  background-color: #566B89;
+  background-color: rgba(52, 9, 92, .5);
+  background-
   max-width: 1960px;
   margin: 50px 50px;
   display: grid;
@@ -38,13 +38,14 @@ img {
 
 .top-row {
   width: auto;
-  height: 200px;
+  height: 150px;
   margin: 50px;
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 5px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-row: 1;
 }
+
 .square1 {
   grid-column: 1;
   border-right: 1px solid #000000;
@@ -68,10 +69,8 @@ img {
 }
 
 .middle-row {
-  margin: 50px;
-  text-align: center;
   width: auto;
-  height: 100px;
+  /* height: 100px; */
   display: grid;
   grid-gap: 10px;
   grid-template-columns: 1fr 1fr 1fr;
@@ -112,7 +111,7 @@ img {
 
 .bottom-row {
   width: auto;
-  height: 200px;
+  height: 150px;
   display: grid;
   grid-gap: 10px;
   grid-template-columns: 2fr 1fr 1fr 2fr;
