@@ -105,6 +105,11 @@ body {
     grid-column: 4;
   }
 
+
+  .rotateimg90 {
+    transform: rotate(90deg)
+  }
+
   .media {
     display: grid;
     grid-gap: 5px;
