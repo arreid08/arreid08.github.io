@@ -86,7 +86,7 @@ body {
     height: 200px;
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
     grid-row: 3;
   }
   .square8 {
