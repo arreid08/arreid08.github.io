@@ -30,12 +30,12 @@ body {
     margin: 50px 50px;
     display: grid;
     grid-gap: 50px;
-    grid-template-rows: 1fr 10px 1fr 10px 1fr;
+    grid-template-rows: 250px;
   }
   
   .top-row {
     width: auto;
-    height: 200px;
+    //height: 200px;
     margin: 50px;
     display: grid;
     grid-gap: 10px;
@@ -80,6 +80,14 @@ body {
     border: .5px solid #000000;
   }
   
+  h2 {
+    padding: 0;
+  }
+
+  .about {
+    padding: 100px;
+  }
+
   .media {
     display: grid;
     grid-gap: 5px;
